@@ -1,2 +1,2 @@
-# landindPage
-# landindPage
+# landingPage
+
