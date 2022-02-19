@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
 
+*{
+  font-family: 'Roboto', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  border:none !important;
+  outline: none !important;
+  text-decoration: none !important;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: all .2s linear;
+} 
 
 :root{
   --blue:#0188DF;
@@ -15,35 +26,58 @@
 
 .pic1{
   width:600px;
+  margin-left: -50px;
+  
 } 
 
+.slogan1{
+  margin-right: 10%;
+  margin-left: -70px;
+  
+}
 
 .pic2{
   width: 600px;
-  height: 600px;
+  margin-left: -70px;
+  padding-top: 60px;
+}
+
+.slogan2{
+  margin-right: 0%;
+  margin-left: -80px;
+  
 }
 
 .pic3{
-  width: 600px;
-  height: 600px;
+  width: 700px;
+  margin-left: -60px;
 }
 
-
+.slogan3{
+  margin-right: 0%;
+  margin-left: -60px;
+  
+}
 
 
 
 /* swiper */
 
 .swiper-container{
-  width: 120%;
-  height: 800px;}
+  width: 130%;
+  height: 800px;
+
+}
+
+
 
 .swiper-slide{
  background-color: white;
  display:flex;
- justify-content: center;
+ justify-content: left;
  align-items: center;
  font-size: 60px;
+
 }
 
 .swiper-pagination{
@@ -61,17 +95,7 @@
  
 }
 
-*{
-  font-family: 'Roboto', sans-serif;
-  margin:0; padding:0;
-  box-sizing: border-box;
-  border:none !important;
-  outline: none !important;
-  text-decoration: none !important;
-  text-transform: capitalize;
-  font-weight: 400;
-  transition: all .2s linear;
-}
+
 
 *::selection{
   background:var(--black);
@@ -154,6 +178,7 @@ header{
 
 .container{
   width: 1200px;
+ 
 }
 
 
@@ -509,6 +534,26 @@ header .fa-times{
 /* media queries  */
 
 @media (max-width:768px){
+
+  .slogan1{
+    margin-right: 10%;
+    margin-left: 30px;
+  }
+  
+
+  .swiper-container{
+    width: 120%;
+    height: 200px;
+    margin-top: 3%;
+    margin-left: 0%;
+  }
+  
+  .swiper-slide{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+   }
+
 
   html{
     font-size: 55%;
