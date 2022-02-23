@@ -538,8 +538,58 @@ header .fa-times{
   .slogan1{
     margin-right: 10%;
     margin-left: 30px;
+    margin-top: -10px;
+   
   }
   
+  .pic1{
+    width: 500px;
+    height: 500px;
+    margin-left: 10px;
+  }
+
+  
+  .pic2{
+    width: 500px;
+    height: 500px;
+    margin-left: 10px;
+  }
+
+  .slogan2{
+    margin-right: 10%;
+    margin-left: 30px;
+    margin-top: -13px;
+   
+  }
+
+  .pic3{
+    width: 600px;
+    height: 600px;
+    margin-top: 100px;
+  }
+
+
+  .slogan3{
+    margin-right: 10%;
+    margin-left: 30px;
+    margin-top: -180px;
+  }
+
+
+
+
+
+  .swiper-pagination{
+    margin-bottom: -68px;
+  }
+
+
+.swiper-scrollbar{
+  margin-bottom: -69px;
+}
+
+
+
 
   .swiper-container{
     width: 120%;
