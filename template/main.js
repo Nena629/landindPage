@@ -1,5 +1,5 @@
 
-const swiper = new Swiper('.swiper-container', {
+const Swiperr = new Swiper('.swiper-container', {
   
   // Optional parameters
   direction: 'horizontal',
