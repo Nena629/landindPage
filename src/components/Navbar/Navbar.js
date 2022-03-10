@@ -1,4 +1,3 @@
-
 import React, {useState,useEffect} from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
@@ -34,7 +33,7 @@ function Navbar () {
       <Nav>
           <NavbarContainer>
               <NavLogo to= '/'>
-                  <img src="/pictures/Tabibcom logo.png" width="37%" alt="" ></img>
+                  <img src="/pictures/Tabibcom logo.png" width="42%" alt="" ></img>
               </NavLogo>
 
             <MobileIcon onClick={handleClick}>
