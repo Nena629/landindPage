@@ -1,22 +1,34 @@
-import React from 'react';
-import GlobalStyle from './globalStyles';
-import { Route, BrowserRouter, Routes} from 'react-router-dom';
-import {Footer, Navbar} from './components'
-import Home from './pages/Homepage/Home';
+import React from 'react'
+import "./App.css"
+import {About, Header, Home, Facility, Review, Counter, Contact, Post, Footer} from "./components";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./css/aos.css";
+import "./css/magnific-popup.min.css";
+import "./css/bootstrap-grid.min.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "./fontawesome/css/fontawesome.min.css";
 
 
+const App = () => {
 
-function App ()  {
+  AOS.init({
+    duration:1000,
+    delay:400
+});
+
   return (
-    <BrowserRouter>
-      <GlobalStyle/>
-      <Navbar />
-      <Routes>
-        <Route path="/*" element={<Home/>} />
-      </Routes>
-      <Footer/>
-
-    </BrowserRouter>
+    <>
+     <Header />
+     <Home />
+     <About/>
+     <Facility/>
+     <Review/>
+     <Counter/>
+     <Contact/>
+     <Post/>
+     <Footer/>
+    </>
   )
 }
 

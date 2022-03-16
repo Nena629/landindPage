@@ -1,3 +1,9 @@
-export {default as Navbar} from './Navbar/Navbar';
-export {default as InfoSection} from './InfoSection/InfoSection';
-export {default as Footer} from './Footer/Footer';
+export { default as Header } from "./header/Header";
+export { default as Home } from "./home/Home";
+export { default as About } from "./about/About";
+export { default as Facility } from "./facilty/Facility";
+export { default as Review } from "./review/Review";
+export { default as Counter } from "./counter/Counter";
+export { default as Contact } from "./contact/Contact";
+export { default as Post } from "./post/Post";
+export { default as Footer } from "./footer/Footer";
