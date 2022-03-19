@@ -1,6 +1,17 @@
+path{
+  color: 
+  #0188df;
+}
 
+
+svg{
+  height: 25px;
+  width: 51px;
+}
 .about{
     background:#eee;
+   
+    
   }
   
   .about .content .box{

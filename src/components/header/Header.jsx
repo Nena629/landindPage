@@ -5,9 +5,11 @@ import logoHeader from "../../images/Tabibcom logo.png";
 
 const Header = () => {
 
+
   return (
 
   <header>
+    
   <div className="container">
     <a href="#" className="logo"> 
     
@@ -27,6 +29,7 @@ const Header = () => {
 
     <div className="fas fa-bars" >
   </div>
+
 </header>
 
   )

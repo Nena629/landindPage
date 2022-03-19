@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Counter.css";
+import { FaHospital,FaUsers, FaSmile,FaProcedures} from 'react-icons/fa';
 
 
 
@@ -11,22 +12,22 @@ const Counter = () => {
   <div className="container">
     <div className="box-container">
       <div className="box" data-aos="fade-up">
-        <i className="fas fa-hospital" />
+        <FaHospital/>
         <span>120+</span>
         <h3>Hospitals</h3>
       </div>
       <div className="box" data-aos="fade-up">
-        <i className="fas fa-users" />
+        <FaUsers/>
         <span>100+</span>
         <h3>staff</h3>
       </div>
       <div className="box" data-aos="fade-up">
-        <i className="fas fa-smile" />
+        <FaSmile/>
         <span>1200+</span>
         <h3>happy patients</h3>
       </div>
       <div className="box" data-aos="fade-up">
-        <i className="fas fa-procedures" />
+        <FaProcedures/>
         <span>130+</span>
         <h3>bed facility</h3>
       </div>

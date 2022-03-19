@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import "./Facility.css";
 import img1 from "../../images/img1.jpg";
 import img2 from "../../images/img2.jpg";
@@ -14,7 +14,11 @@ import img9 from "../../images/img9.jpg";
 
 
 const Facility = () => {
+
+
   return (
+  
+    
     <section className="facility" id="facility">
       <div className="container">
         <h1 className="heading">
@@ -70,6 +74,12 @@ const Facility = () => {
       </div>
     </section>
   );
+
+
+
+
+
+
 };
 
 export default Facility;

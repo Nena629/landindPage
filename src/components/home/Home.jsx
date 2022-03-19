@@ -8,10 +8,11 @@ const Home = () => {
       <div className="container">
         <div className="row min-vh-100 align-items-center text-center text-md-left">
           <div className="col-md-6 pr-md-5" data-aos="zoom-in">
-            <img src={DoctorsBro} width="110%" alt="" />
+            <img className="img1" src={DoctorsBro} width="125%" alt="" />
           </div>
 
           <div className="col-md-6 pl-md-5 content" data-aos="fade-left">
+            <div className="text">
             <h1>
               <span>stay</span> safe, <span>stay</span> healthy.
             </h1>
@@ -20,6 +21,8 @@ const Home = () => {
               {" "}
               <button className="button">learn more</button>
             </a>
+            </div>
+            
           </div>
         </div>
       </div>
