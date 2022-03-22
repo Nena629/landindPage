@@ -1,5 +1,7 @@
 import $ from 'jquery';
 
+
+
 $(document).ready(function(){
 
     $('.fa-bars').click(function(){
@@ -26,6 +28,7 @@ $(document).ready(function(){
       gallery:{
         enabled:true
       }
+   
     });
   
   });

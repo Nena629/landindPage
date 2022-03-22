@@ -11,14 +11,13 @@ import img8 from "../../images/img8.jpg";
 import img9 from "../../images/img9.jpg";
 
 
-
-
 const Facility = () => {
 
 
   return (
   
     
+
     <section className="facility" id="facility">
       <div className="container">
         <h1 className="heading">
