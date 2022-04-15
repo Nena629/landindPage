@@ -42,3 +42,17 @@
     background:var(--black);
   }
   
+  
+@media (max-width: 960px){
+
+  
+  .contact form .inputBox input, select{
+    width: 100%;
+  }
+
+  .contact form input[type="submit"]{
+    width:100%;
+  }
+
+}
+
