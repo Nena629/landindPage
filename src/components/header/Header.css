@@ -2,6 +2,12 @@
   margin-left:-8%;
 }
 
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .heading{
     text-align: center;
     font-size: 4rem;
@@ -90,7 +96,14 @@ header .fa-times{
 
   header .fa-bars{
     display: block;
+    font-size:x-large;
+    color: #7c9afb;
   }
+ 
+  ul{
+    background-color:#e4eafe;
+  }
+
 
   header .nav{
     position: fixed;

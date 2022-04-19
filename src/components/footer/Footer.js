@@ -17,8 +17,8 @@ const Footer = () => {
       </div>
       <div className="col-md-4 text-center" data-aos="fade-up">
         <h3>links</h3>
-        <a href="#">home</a>
-        <a href="#">about</a>
+        <a href="/">home</a>
+        <a href="/about">about</a>
         <a href="#">facility</a>
         <a href="#">review</a>
         <a href="#">contact</a>

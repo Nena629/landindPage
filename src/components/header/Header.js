@@ -11,12 +11,10 @@ const Header = () => {
   <header>
     
   <div className="container">
-
-    <a href="#" className="logo"> 
+    <a href="/" className="logo"> 
+    
       <img className="mainlogo" src= {logoHeader} width="37%" alt='' />
     </a>
-
-
     <nav className="nav">
       <ul>
         <li><a href="#home">home</a></li>
@@ -29,7 +27,7 @@ const Header = () => {
     </nav>
     </div>
 
-    <div className="fas fa-bars" >
+    <div className="fas fa-bars">
   </div>
 
 </header>
