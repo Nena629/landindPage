@@ -85,8 +85,9 @@ header .container{
 
 header .fa-times{
     transform: rotate(180deg);
+    
   }
-  
+
   
 @media (max-width: 960px){
 
@@ -139,4 +140,9 @@ header .fa-times{
     top:50%;
     opacity: 1;
   }
+
+  
+  
+
+
 }
