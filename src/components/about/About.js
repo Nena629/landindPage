@@ -10,15 +10,19 @@ const About = () => {
                 <div className="row min-vh-1 align-items-center">
                     <div className="col-md-6 content" data-aos="fade-right">
                         <div className="box">
-                            <h3> <FaAmbulance/> ambulance services </h3>
+                       
+                     <h3> <FaAmbulance className='amb'/> 
+                     ambulance services </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
                         </div>
                         <div className="box">
-                            <h3> <FaProcedures/>   emergency rooms </h3>
+                            <h3> <FaProcedures className='room'/>   
+                             emergency rooms </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
                         </div>
                         <div className="box">
-                            <h3> <FaStethoscope/> free check-ups </h3>
+                            <h3> <FaStethoscope className='check'/> 
+                             free check-ups </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
                         </div>
                     </div>

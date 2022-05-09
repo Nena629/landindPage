@@ -1,5 +1,5 @@
 .review{
-    background: linear-gradient(var(--black),var(--black)) no-repeat;
+    background: #54687d no-repeat;
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;

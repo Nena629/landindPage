@@ -1,6 +1,5 @@
-
 .contact{
-    background:var(--black);
+    background:#54687d;
   }
   
   .contact .heading{
@@ -39,7 +38,7 @@
   }
   
   .contact form input[type="submit"]:hover{
-    background:var(--black);
+    background:#7c9afb;
   }
   
   
