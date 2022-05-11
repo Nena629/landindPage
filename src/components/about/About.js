@@ -12,17 +12,17 @@ const About = () => {
                         <div className="box">
                        
                      <h3> <FaAmbulance className='amb'/> 
-                     ambulance services </h3>
+                     Service d'ambulance </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
                         </div>
                         <div className="box">
                             <h3> <FaProcedures className='room'/>   
-                             emergency rooms </h3>
+                            Salles d'urgence </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
                         </div>
                         <div className="box">
                             <h3> <FaStethoscope className='check'/> 
-                             free check-ups </h3>
+                            consultation gratuite </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
                         </div>
                     </div>

@@ -33,9 +33,9 @@ const Home = () => {
               <div className="col-md-6 pl-md-5 content" data-aos="fade-left">
                 <div className="text">
                   <h1>
-                    <span>stay</span> safe, <span>stay</span> healthy.
+                    <span>Soyez</span> en sécurité,<span> Soyez</span> en bonne santé.
                   </h1>
-                  <h3>caring for you.</h3>
+                  <h3>Aux petits soins pour <span>vous</span>.</h3>
                   <a href="/">
                     {" "}
                     <button className="button">learn more</button>
@@ -57,10 +57,10 @@ const Home = () => {
 
               <div className="col-md-6 pl-md-5 content" data-aos="fade-left">
                 <div className="text2">
-                  <h1>
-                    <span>stay</span> safe, <span>stay</span> healthy.
+                <h1>
+                    <span>Soyez</span> en sécurité,<span> Soyez</span> en bonne santé.
                   </h1>
-                  <h3>caring for you.</h3>
+                  <h3>Aux petits soins pour <span>vous</span>.</h3>
                   <a href="/">
                     {" "}
                     <button className="button">learn more</button>
@@ -85,10 +85,10 @@ const Home = () => {
 
               <div className="col-md-6 pl-md-5 content" data-aos="fade-left">
                 <div className="text3">
-                  <h1>
-                    <span>stay</span> safe, <span>stay</span> healthy.
+                <h1>
+                    <span>Soyez</span> en sécurité,<span> Soyez</span> en bonne santé.
                   </h1>
-                  <h3>caring for you.</h3>
+                  <h3>Aux petits soins pour <span>vous</span>.</h3>
                   <a href="/">
                     {" "}
                     <button className="button">learn more</button>

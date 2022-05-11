@@ -10,15 +10,15 @@ const Post = () => {
     <section className="post" id="post">
       <div className="container min-vh-100">
         <h1 className="heading">
-          <span>'</span> our posts <span>'</span>
+          <span>'</span> Actualités médicales <span>'</span>
         </h1>
         <div className="box-container">
           <div className="box" data-aos="fade-right">
             <img src={img10} alt="" />
             <div className="content">
-              <span>jan 5, 2021</span>
+              <span>jan 5, 2022</span>
               <a href="#">
-                <h3>post title goes here</h3>
+                <h3>Titre</h3>
               </a>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ex
@@ -26,16 +26,16 @@ const Post = () => {
                 ad?
               </p>
               <a href="#">
-                <button className="button">learn more</button>
+                <button className="button">en savoir plus</button>
               </a>
             </div>
           </div>
           <div className="box" data-aos="fade-up">
             <img src={img11} alt="" />
             <div className="content">
-              <span>jan 5, 2021</span>
+              <span>jan 5, 2022</span>
               <a href="#">
-                <h3>post title goes here</h3>
+                <h3>Titre</h3>
               </a>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ex
@@ -43,16 +43,16 @@ const Post = () => {
                 ad?
               </p>
               <a href="#">
-                <button className="button">learn more</button>
+                <button className="button">en savoir plus</button>
               </a>
             </div>
           </div>
           <div className="box" data-aos="fade-left">
             <img src={img12} alt="" />
             <div className="content">
-              <span>jan 5, 2021</span>
+              <span>jan 5, 2022</span>
               <a href="#">
-                <h3>post title goes here</h3>
+                <h3>Titre</h3>
               </a>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ex
@@ -60,7 +60,7 @@ const Post = () => {
                 ad?
               </p>
               <a href="#">
-                <button className="button">learn more</button>
+                <button className="button">en savoir plus</button>
               </a>
             </div>
           </div>

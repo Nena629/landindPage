@@ -11,7 +11,6 @@ import img8 from "../../images/img8.jpg"
 import img9 from "../../images/img9.jpg"
 
 
-
 const Facility = () => {
 
   return (
@@ -22,7 +21,7 @@ const Facility = () => {
 
     <h1 className="heading">
 
-      <span>'</span> our facilities <span>'</span></h1>
+      <span>'</span> Nos Services <span>'</span></h1>
 
     <div className="box-container">
       <div className="box" data-aos="zoom-in">

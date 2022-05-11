@@ -9,24 +9,24 @@ const Review = () => {
     
 <section className="review" id="review">
   <div className="container">
-    <h1 className="heading"><span>'</span> people's review <span>'</span></h1>
+    <h1 className="heading"><span>'</span> Avis des patients  <span>'</span></h1>
     <div className="box-container">
       <div className="box" data-aos="fade-right">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur accusantium error numquam dolore atque. Atque totam ad sint ducimus! Maxime!</p>
-        <h3>someone's name</h3>
-        <span>jan 5, 2021</span>
+        <h3> nom du patient</h3>
+        <span>jan 5, 2022</span>
         <img src={pic1} alt="" />
       </div>
       <div className="box" data-aos="fade-up">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur accusantium error numquam dolore atque. Atque totam ad sint ducimus! Maxime!</p>
-        <h3>someone's name</h3>
-        <span>jan 7, 2021</span>
+        <h3> nom du patient</h3>
+        <span>jan 7, 2022</span>
         <img src={pic2} alt="" />
       </div>
       <div className="box" data-aos="fade-left">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur accusantium error numquam dolore atque. Atque totam ad sint ducimus! Maxime!</p>
-        <h3>someone's name</h3>
-        <span>jan 10, 2021</span>
+        <h3> nom du patient</h3>
+        <span>jan 10, 2022</span>
         <img src={pic3} alt="" />
       </div>
     </div>

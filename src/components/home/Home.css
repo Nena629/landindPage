@@ -7,7 +7,6 @@
   width: 800px;
   margin-top: -350px;
   margin-left: 480px;
-  
 }
 
 .row.min-vh-100.align-items-center.text-center.text-md-left{
@@ -46,19 +45,37 @@
 
 
 .home .content h1{
-    font-size: 5rem;
+    font-size: 32px;
     color:var(--black);
+    text-align: center;
+    margin-right: 70px;
+  
   }
   
+
 .home .content h1 span{
     color:#7c9afb
     ;
   }
   
 .home .content h3{
-    font-size: 4rem;
+    font-size: 32px;
     color:var(--black);
+    margin-top: 10px;
+    margin-right: 55px;
+    margin-bottom: 10px;
+    text-align: center; 
+   
   }
+
+  .home .content h3 span{
+    color:#7c9afb
+    ;
+  }
+
+
+
+
 
 
 .button{

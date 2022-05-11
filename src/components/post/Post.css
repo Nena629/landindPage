@@ -33,6 +33,7 @@
   .post .box-container .box .content h3{
     font-size: 2rem;
     color:var(--black);
+    margin-left: -3px;
   }
   
   .post .box-container .box .content:hover h3{
