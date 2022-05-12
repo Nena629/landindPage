@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Footer.css";
 import logoHeader from "../../images/Tabibcom logo.png";
-import { BsFacebook} from 'react-icons/bs';
-import {BsInstagram} from 'react-icons/bs';
-import {BsTwitter} from 'react-icons/bs';
+import {BsFacebook, BsInstagram, BsTwitter,BsLinkedin} from 'react-icons/bs';
+
+
 
 const Footer = () => {
   return (
@@ -12,9 +12,9 @@ const Footer = () => {
   <div className="container">
     <div className="row">
       <div className="col-md-4" data-aos="fade-right">
-        <a href="#" className="logo"> 
-          <img className="mainlogo" src={logoHeader} width="37%" alt="" /></a>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur nemo porro quasi minima consequuntur dolorum, quas amet in autem id?</p>
+        <a href="#logo" className="logo"> 
+          <img className="mainlogo" src={logoHeader} width="50%" alt="" /></a>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing lit. Tenetur nemo porro quasi minima consequuntur dolorum, quas amet in autem id</p>
       </div>
       <div className="col-md-4 text-center" data-aos="fade-up">
         <h3>Navigation rapide</h3>
@@ -27,10 +27,13 @@ const Footer = () => {
       </div>
       <div className="col-md-4 text-center" data-aos="fade-left">
         <h3>réseaux sociaux</h3>
-        <a href="https://www.facebook.com/"><BsFacebook/></a>
-        <a href="https://www.instagram.com/"><BsInstagram/></a>
-        <a href="https://twitter.com/"><BsTwitter/></a>
+        <div className='res'>
+        <a href="https://www.facebook.com/"><BsFacebook className='fb'/></a>
+        <a href="https://www.instagram.com/"><BsInstagram className='in'/></a>
+        <a href="https://twitter.com/"><BsTwitter className='tw'/></a>
+        <a href="https://www.linkedin.com/"><BsLinkedin className='ln'/></a>
     
+        </div>
       </div>
     </div>
   </div>
@@ -38,7 +41,6 @@ const Footer = () => {
 </section>
 
    
-
   )
 }
 
