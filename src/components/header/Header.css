@@ -1,18 +1,61 @@
 .mainlogo{
-  margin-left:-8%;
+  margin-top: 10px;
 }
 
 .comp{
   width: 679px;
-  
 }
 
+.connect{
+  overflow:hidden;
+  color: #7c9afb;
+  border-radius: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 130px;
+  height: 45px; 
+  margin: left 10px;
+  background-color: #7c9afb;
+}
+
+button{
+  background-color: #7c9afb;
+
+}
+
+.connect a{
+  background-color: #7c9afb;
+  font-size: 20px;
+  color: white;
+  font-weight:bold ;
+
+}
+
+
+.connect:hover a{
+  background-color: #54C5BE;
+  font-size: 20px;
+
+}
+
+
+
+.connect:hover {
+  transform: translate(0,-6px);
+  background-color: #54C5BE;
+}
+
+
+.connect:hover::after{
+  transform: rotate(150deg);
+  background-color: #54C5BE;
+}
 
 
 header .container{
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 
 .heading{
@@ -46,6 +89,7 @@ header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 200px;
   }
   
   header a{
@@ -53,23 +97,31 @@ header .container{
   }
   
   header a:hover{
-    color:var(--blue);
+    color:#7c9afb;;
   }
   
   header .container .logo{
-    font-size: 3rem;
+    font-size: 4rem;
+ 
+  
   }
   
+ 
+
   header .container .logo span{
     color:var(--blue);
+  
   }
   
+   
+
   header .nav ul{
     margin:0; padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style: none;
+  
   }
   
   header .nav ul li{

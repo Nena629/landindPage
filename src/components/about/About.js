@@ -17,7 +17,7 @@ const About = () => {
                         </div>
                         <div className="box">
                             <h3> <FaProcedures className='room'/>   
-                            Salles d'urgence </h3>
+                            Salle de soins</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
                         </div>
                         <div className="box">

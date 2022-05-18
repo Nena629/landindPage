@@ -11,7 +11,7 @@ const Footer = () => {
 <section className="footer">
   <div className="container">
     <div className="row">
-      <div className="col-md-4" data-aos="fade-right">
+      <div className="col-md-4" data-aos="fade-up">
         <a href="#logo" className="logo"> 
           <img className="mainlogo" src={logoHeader} width="50%" alt="" /></a>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing lit. Tenetur nemo porro quasi minima consequuntur dolorum, quas amet in autem id</p>
