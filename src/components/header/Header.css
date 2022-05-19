@@ -89,7 +89,7 @@ header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 200px;
+    margin-left: 250px;
   }
   
   header a{
@@ -102,18 +102,15 @@ header .container{
   
   header .container .logo{
     font-size: 4rem;
- 
-  
+    margin-left: -80px;
   }
-  
- 
+
 
   header .container .logo span{
     color:var(--blue);
-  
+
   }
   
-   
 
   header .nav ul{
     margin:0; padding: 0;
@@ -148,24 +145,35 @@ header .fa-times{
     
   }
 
-
   
 @media (max-width: 960px){
-
+   
   .mainlogo{
-    margin-left:-3%;
+    width: 200px;
   }
+
+  header{
+    margin-top: -10px;
+  }
+
 
   header .fa-bars{
     display: block;
     font-size:x-large;
     color: #7c9afb;
     margin-left: 94%;
+    margin-top: -50px;
   }
  
   ul{
     background-color:#e4eafe;
   }
+
+  header .container .logo{
+    font-size: 4rem;
+    margin-left: -210px;
+  }
+
 
   .connect{
     margin-left: 1px;
@@ -181,6 +189,7 @@ header .fa-times{
     background:#fff;
     width: 95%;
     opacity: 0;
+    
   }
 
   header .nav ul{
@@ -204,8 +213,6 @@ header .fa-times{
     top:50%;
     opacity: 1;
   }
-
-  
   
 
 

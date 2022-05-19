@@ -13,7 +13,7 @@ const Header = () => {
   <div className="container">
     <a href="/" className="logo"> 
     
-      <img className="mainlogo" src= {logoHeader} width="50%" alt='' />
+      <img className="mainlogo" src= {logoHeader} width="45%" alt='' />
     </a>
     <nav className="nav">
       <ul className='comp'>
@@ -31,7 +31,7 @@ const Header = () => {
     </div>
 
     <div className="fas fa-bars">
-  </div>
+     </div>
 
 </header>
 

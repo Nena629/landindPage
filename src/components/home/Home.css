@@ -74,10 +74,6 @@
   }
 
 
-
-
-
-
 .button{
     height:3.5rem;
     width: 15rem;
@@ -154,6 +150,7 @@
 
 
 @media (max-width: 960px){
+
   #home.home{
     margin-right: 10px;
   }
@@ -167,6 +164,13 @@
     margin-top: 4%;
   }
 
+ .comp{
+  border-color: #7c9afb;
+ }
+
+  .fas.fa-bars.fa-times{
+    color: #7c9afb;
+  }
 
   .swiper-slide img {
     display: block;
@@ -183,60 +187,60 @@
     
   }
 
-
   .swiper {
     margin-left: auto;
     margin-right: auto;
   }
   
   .swiper-slide .text{
-    width: 600px;
+    width: 500px;
     margin-top: 6%;
-    margin-left: -15%;
-    
+    margin-left: 1%;
+    font-size: 30px;
   }
   
   .swiper-slide .text h1{
-    font-size: 40px;
+    font-size: 30px;
   }
   
   .swiper-slide .text h3{
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .swiper-slide .button{
    margin-top: 5%;
+   margin-right: 60px;
  }
 
-
  .swiper-slide .text2{
-  width: 600px;
-  margin-top: 3%;
-  margin-left: -15%;
+  width: 500px;
+  margin-top: 2%;
+  margin-left: 1%;
+  font-size: 30px;
 }
 
 .swiper-slide .text2 h1{
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .swiper-slide .text2 h3{
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .swiper-slide .text3{
-  width: 600px;
-  margin-top: 4%;
-  margin-left: -15%;
-}
-
-.swiper-slide .text3 h1{
-  font-size: 40px;
-}
-
-.swiper-slide .text3 h3{
+  width: 500px;
+  margin-top: 2%;
+  margin-left: 1%;
   font-size: 30px;
 }
 
+.swiper-slide .text3 h1{
+  font-size: 30px;
+}
+
+.swiper-slide .text3 h3{
+  font-size: 25px;
+}
 
 
 

@@ -17,7 +17,7 @@ const Counter = () => {
       <div className="box" data-aos="fade-up">
         <FaUsers/>
         <span>3</span>
-        <h3>Assitantes médicale</h3>
+        <h3>Assitantes médicales</h3>
       </div>
       <div className="box" data-aos="fade-up">
         <FaSmile/>
